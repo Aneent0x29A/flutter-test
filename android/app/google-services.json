@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445983966600",
+    "project_id": "flutter-login-5be14",
+    "storage_bucket": "flutter-login-5be14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445983966600:android:450d8657c51053a7b3663d",
+        "android_client_info": {
+          "package_name": "moe.hybi.hatoca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445983966600-lr9ejpqt8mckc68ki6t5crc4dmqc457k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmzGRqaIOOAJEvwnoLWWy3PrXMFeZ-CN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445983966600-lr9ejpqt8mckc68ki6t5crc4dmqc457k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

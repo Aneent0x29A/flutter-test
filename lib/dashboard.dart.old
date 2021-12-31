@@ -1,0 +1,162 @@
+import 'package:flutter/material.dart';
+
+class Dashboard extends StatefulWidget {
+  const Dashboard({Key? key}) : super(key: key);
+
+  @override
+  _DashboardState createState() => _DashboardState();
+}
+
+class _DashboardState extends State<Dashboard> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+          body: Column(
+        children: <Widget>[
+          Flexible(
+              flex: 1,
+              child: Container(
+                color: Colors.amber,
+              )),
+          Flexible(
+            flex: 1,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                        margin: const EdgeInsets.all(8),
+                        child: Column(
+                          children: const <Widget>[
+                            Image(
+                              image: AssetImage('assets/lucky_draw.png'),
+                              fit: BoxFit.contain,
+                            ),
+                            Text("Lucky Draw")
+                          ],
+                        ))),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/book_test_drive.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/book_serices.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/ths.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+              ],
+            ),
+          ),
+          Flexible(
+            flex: 1,
+            child: Row(
+              children: <Widget>[
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/catalog.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/calculator.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/claim_insurance.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/service_berkala.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+              ],
+            ),
+          ),
+          Flexible(
+            flex: 1,
+            child: Row(
+              children: <Widget>[
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/tipsandtrick.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/tradein.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                      child: const Image(
+                        image: AssetImage('assets/dealer_location.png'),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    )),
+                Flexible(
+                    flex: 1,
+                    child: Container(
+                      margin: const EdgeInsets.all(8),
+                    )),
+              ],
+            ),
+          ),
+          Flexible(
+              flex: 1,
+              child: Container(
+                margin: const EdgeInsets.all(8),
+                color: Colors.blue,
+              )),
+        ],
+      )),
+    );
+  }
+}
